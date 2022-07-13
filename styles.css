@@ -283,6 +283,16 @@ img {
     height: 100%;
 }
 
+.current-topic img, .topic-list img{
+    height: 15em;
+    object-fit: cover;
+    object-position: center;
+}
+
+.topic-list .bottom-img-cut{
+    object-position: bottom;
+}
+
 @media (min-width: 500px) and (max-width: 751px) {
     .topic-list .topic-label {
         position: absolute;
