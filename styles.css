@@ -67,6 +67,11 @@ a:focus {
     color: #143774;
 }
 
+footer a:hover,
+footer a:focus {
+    color: #1792d2;
+}
+
 .subtitle {
     color: #1792d2;
     font-size: .75rem;
