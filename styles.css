@@ -253,7 +253,7 @@ img {
     position: relative;
 }
 
-.topic-list .topic-label {
+.topic-label {
     font-size: .8rem;
     display: inline-block;
     padding: 1.1em 0;
@@ -266,14 +266,21 @@ img {
 }
 
 .current-topic img {
-    height: 15em;
     object-fit: cover;
     object-position: bottom;
-    padding-bottom: .8em;
+    margin-bottom: 1.5em;
+}
+
+.current-topic .about-me-img{
+    margin-bottom: 3em;
 }
 
 .current-topic .cut-img-center {
     object-position: center;
+}
+
+.sidebar .sidebar-about-me-img{
+    height: 100%;
 }
 
 @media (min-width: 500px) and (max-width: 751px) {
@@ -281,6 +288,7 @@ img {
         position: absolute;
         right: 0;
         bottom: -1.6em;
+        padding: 0;
     }
 }
 
@@ -293,7 +301,6 @@ img {
     }
 
     .topic-list img {
-        width: 100%;
         height: 100%;
         object-fit: cover;
         object-position: center;
